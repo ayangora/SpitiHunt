@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Portfolio - Moderna Bootstrap Template</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Moderna
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+
+    <style>
+      .usr {
+        width: 50%; /* Adjust the width as needed */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1 class="text-light">
+            <a href="index.html"><span>Moderna</span></a>
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="portfolio.html">Portfolio</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Deep Drop Down</span>
+                    <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+      <!-- ======= Our Portfolio Section ======= -->
+      <section class="breadcrumbs">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>Our Portfolio</h2>
+            <ol>
+              <li><a href="index.html">Home</a></li>
+              <li>Our Portfolio</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+      <!-- End Our Portfolio Section -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <div class="container center">
+        <form>
+          <div class="row">
+            <div class="col">
+              <div class="form-group m-3">
+                <label for="location_id"><strong> Location Id:</strong></label>
+                <input
+                  class="form-control"
+                  placeholder="Enter Location Id"
+                  id="location_id"
+                  style="width: 400px"
+                />
+              </div>
+              <div class="form-group m-3">
+                <label for="pwd"><strong> Address</strong></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Address"
+                  id="lname"
+                  style="width: 400px"
+                />
+              </div>
+              <div class="form-group m-3">
+                <label for="usr"><strong>City</strong></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter City"
+                  id="usr"
+                  style="width: 400px"
+                />
+              </div>
+              <div class="form-group m-3" style="width: 400px">
+                <form id="checkboxForm">
+                  <div class="form-group">
+                    <label for="pwd"><strong> Allovencess:</strong></label>
+                  </div>
+
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                  <label for="Washer&Driyer"
+                    ><input
+                      type="checkbox"
+                      id="Washer&Driyer"
+                      name="Washer&Driyer"
+                      value="Washer&Driyer"
+                    />
+                    &nbsp; Washer&Driyer</label
+                  >
+                  <label for="Service24*7"
+                    ><input
+                      type="checkbox"
+                      id="Service24*7"
+                      name="Service24*7"
+                      value="Service24*7"
+                    />
+                    &nbsp; Service24*7</label
+                  >
+                  <label for="GameRoom"
+                    ><input
+                      type="checkbox"
+                      id="GameRoom"
+                      name="option3"
+                      value="GameRoom"
+                    />
+                    &nbsp; GameRoom</label
+                  >
+                </form>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-group m-3">
+                <label for="pwd"><strong> State:</strong></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="State"
+                  id="pwd"
+                  style="width: 400px"
+                />
+              </div>
+              <div class="form-group m-3">
+                <label for="pwd"><strong> Landmark:</strong></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Landmark"
+                  style="width: 400px"
+                />
+              </div>
+              <div class="form-group m-3">
+                <label for="pwd"><strong> Pincode:</strong></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Enter Pincode"
+                  id="pinname"
+                  style="width: 400px"
+                />
+              </div>
+              <div class="form-group m-3">
+                <div class="d-flex gap-2">
+                  <label for="customRange1" class="form-label"
+                    ><strong>Square Feet:</strong></label
+                  >
+                  <div class="col-md-3">
+                    <span id="demo"></span>
+                  </div>
+                </div>
+                <input
+                  type="range"
+                  class="form-range"
+                  min="1"
+                  max="1000"
+                  value="500"
+                  id="customRange1"
+                />
+              </div>
+              <div class="form-group m-3">
+                <label for="special-features"
+                  ><strong>Special Features in your Place:</strong></label
+                >
+                <textarea
+                  type="text"
+                  class="form-control mt-2"
+                  placeholder=""
+                  id="special-features"
+                  style="width: 400px"
+                  rows="4"
+                ></textarea>
+              </div>
+              <div class="form-group m-3">
+                <div class="custom-file">
+                  <label><b>Upload Photo:</b></label>
+                  <br />
+                  <input
+                    type="file"
+                    class="custom-file-input mt-2"
+                    id="validatedCustomFile"
+                    required
+                    multiple
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <!-- Trigger the modal with a button -->
+              <div class="row">
+                <div class="col text-center">
+                  <button
+                    type="button"
+                    class="btn btn-info btn-lg"
+                    data-toggle="modal"
+                    data-target="#myModal"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </div>
+
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                      </button>
+                      <h4 class="modal-title">Registration</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>Registration Successful.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-default"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- End #main -->
+    <script src="./index.js"></script>
+  </body>
+</html>

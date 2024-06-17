@@ -8,18 +8,11 @@
 
   <script> 
     $(function(){
-      $("#includedContent").load("index.html"); 
+      $("#includedContent").load("index.jsp"); 
     });
     </script> 
 </head>
 <body>
      <div id="includedContent"></div>
-
-	<div style="text-align: center">
-		<h1>Welcome to Bookshop Website Admin Panel</h1>
-		<b>${user.fullname} (${user.email})</b>
-		<br><br>
-		<a href="logout">Logout</a>
-	</div>
 </body>
 </html>
